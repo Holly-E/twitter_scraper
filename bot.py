@@ -11,12 +11,18 @@ from twython import TwythonStreamer
 import json as json
 
 
+#from flask import Flask
+#from waitress import serve
+
+from os import environ
 from flask import Flask
-from waitress import serve
 
 app = Flask(__name__)
-serve(app, listen='*:8080')
-app.run()
+app.run(host= '0.0.0.0', port=environ.get('PORT'))
+
+#app = Flask(__name__)
+#serve(app, listen='*:8080')
+#app.run()
 
 @app.route("/")
 def whatever_homepage_blah():
