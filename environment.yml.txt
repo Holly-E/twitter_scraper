@@ -1,0 +1,5 @@
+name: heroku-jupyter
+dependencies:
+- flask
+- twython
+- waitress
