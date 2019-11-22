@@ -4,9 +4,19 @@ Created on Thu Nov 21 16:06:56 2019
 
 @author: Erick
 """
+from flask import Flask
+app = Flask(__name__)
 
-from twython import Twython
-from twython import TwythonStreamer 
+@app.route('/')
+def hello_world():
+    return 'Hello World!'
+
+if __name__ == '__main__':
+    app.run()
+    
+    
+#from twython import Twython
+#from twython import TwythonStreamer 
 #import json as json
 
 

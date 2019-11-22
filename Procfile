@@ -1,2 +1,1 @@
-worker: python bot.py
-web: waitress server:app
+waitress-serve --call "app:app"
