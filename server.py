@@ -13,6 +13,15 @@ from flask import Flask
 app = Flask(__name__)
 #app.run(host= '0.0.0.0', port=environ.get('PORT'))
 
+@app.route('/')
+def hello_world():
+   return 'Hello, World!'
+
+
 #app = Flask(__name__)
-serve(app, listen='*:8080')
+serve(app, host='0.0.0.0', port=8000)
 app.run()
+
+
+
+   
