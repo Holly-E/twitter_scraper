@@ -8,7 +8,7 @@ Created on Thu Nov 21 16:06:56 2019
 #from generate_advertisement import get_ad
 from twython import Twython
 from twython import TwythonStreamer 
-import json as json
+#import json as json
 
 
 #from flask import Flask
