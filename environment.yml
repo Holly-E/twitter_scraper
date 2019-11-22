@@ -1,0 +1,6 @@
+name: heroku-twitter
+
+dependencies:
+  - flask
+  - twython
+  - waitress
