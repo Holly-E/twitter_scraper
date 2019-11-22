@@ -1,2 +1,2 @@
 worker: python app.py
-web: python server.py
+web: waitress-serve app:app
