@@ -1,1 +1,2 @@
-waitress-serve --call "app:app"
+worker: python app.py
+web: python server.py
