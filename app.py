@@ -27,10 +27,11 @@ if __name__ == '__main__':
 #INTERVAL = 60 * 60 * .5  # update every 30 mins
 INTERVAL = 15  # every 15 seconds, for testing
 
-APP_KEY = "muoNZiZsbjioa4TGzgj4zAwwY"
-APP_SECRET = "v9f5wqEKh4vSUt894tJN6tMf0W0G3vN2D9PVLDHKzdimlaq27x"
-OAUTH_TOKEN = "838081010193547264-rE7o5rSPlMwibMTVVaPN2SjG8JZX9zP" 
-OAUTH_TOKEN_SECRET = "CM9RRtrWf1OsaRB5PV6sIRzUs7iaGXlXqBCfj2eK74Zub"
+# Keys have been regenerated
+APP_KEY = "XX"
+APP_SECRET = "XX"
+OAUTH_TOKEN = "XX" 
+OAUTH_TOKEN_SECRET = "XX"
 
 """
 #auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
